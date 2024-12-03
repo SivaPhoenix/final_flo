@@ -10,31 +10,25 @@ import "aos/dist/aos.css";
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
+
 export default function App() {
   useEffect(() => {
-    const aos_init = () => {
-      AOS.init({
-        once: true,
-        duration: 1000,
-        easing: 'ease-out-cubic',
-      });
-    }
-
-    window.addEventListener('load', () => {
-      aos_init();
+    // Initialize AOS when the component mounts
+    AOS.init({
+      once: true,
+      duration: 1000,
+      easing: 'ease-out-cubic',
     });
   }, []);
+
   return (
-    <>
-      <Router>
-        <ScrollToTop>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-          </ScrollToTop>
-        
-      </Router>
-    </>
-  )
+    <Router>
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </ScrollToTop>
+    </Router>
+  );
 }
