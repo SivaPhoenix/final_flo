@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
 
             <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
-                <div id="hero" className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
+                <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                     {/* Left Content */}
                     <div className="lg:w-1/2 flex flex-col justify-center" data-aos="fade-right" data-aos-delay="200">
                         <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
