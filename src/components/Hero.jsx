@@ -8,8 +8,7 @@ export default function Hero() {
     <div>
         <NavBar />
     </div>
-    <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
-
+    <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6">
                     <div id='hero' className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                         {/* Left Content */}
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
@@ -20,15 +19,11 @@ export default function Hero() {
                                 At Final Flo, we provide innovative final-year project solutions and web applications to help engineering students and businesses thrive in the digital era.
                             </p>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
-                                {/* <Link to="/projects" className="bg-blue-600 hover:bg-blue-800 text-white py-3 px-5 rounded-lg text-lg font-medium transition duration-300">
-                                    Explore Projects
-                                </Link> */}
                                 <Link to="/contact" className="bg-gray-200 hover:bg-gray-300 text-blue-800 py-3 px-5 rounded-lg text-lg font-medium transition duration-300">
                                     Contact Us
                                 </Link>
                             </div>
                         </div>
-
                         {/* Right Content */}
                         <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
                             <img alt="hero" className="rounded-t float-right duration-1000 w-full" src={heroImg} />
