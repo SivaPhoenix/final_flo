@@ -14,11 +14,11 @@ const Contact = () => {
         )
         .then((result) => {
             console.log('Email sent successfully:', result.text);
-            alert('Message sent successfully!');
+            alert('Message sent successfully! We will contact you soon!');
         })
         .catch((error) => {
             console.error('Error sending email:', error.text);
-            alert('Failed to send message. Please try again later.');
+            alert('Failed to send message. Please try again later or contact the number mentioned in the site!');
         });
 
         e.target.reset(); // Reset the form after submission
