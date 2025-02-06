@@ -4,11 +4,11 @@ import Card from "../components/Card";
 const domains = [
   {
     title: "Web Development",
-    technologies: ["React", "Angular", "Tailwind CSS", "Responsive Design"],
+    technologies: ["React JS", "Angular", "Tailwind CSS", "Responsive Design","Node JS"],
   },
   {
     title: "Database",
-    technologies: ["SQL", "PostgreSQL", "MongoDB", "Firebase"],
+    technologies: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
   },
   {
     title: "App Development",
