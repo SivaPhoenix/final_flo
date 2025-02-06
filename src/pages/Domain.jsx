@@ -15,8 +15,8 @@ const domains = [
     technologies: ["Flutter", "React Native"],
   },
   {
-    title: "Machine Learning",
-    technologies: ["Computer Vision", "TensorFlow", "Prediction Projects"],
+    title: "Machine Learning and AI",
+    technologies: ["Computer Vision", "TensorFlow", "Prediction Projects", "LLM","Gemini API"],
   },
 ];
 
