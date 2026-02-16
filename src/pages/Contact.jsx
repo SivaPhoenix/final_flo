@@ -7,8 +7,8 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_bg909gg', // Your Service ID
-            'template_f6gymbu', // Your Template ID
+            'service_9avz8x4', // Your Service ID
+            'template_tdr1kaa', // Your Template ID
             e.target,
             'C2iNVomxI1ccNzlwO' // Your Public Key
         )
